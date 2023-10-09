@@ -7,7 +7,7 @@ namespace Shop.Microservice.Domain.Common
     public class Order : BaseAuditableEntity
     {
         public Guid UserID { get; set; }
-        public List<Product> Producs { get; set; }
+        public List<Product> Products { get; set; } = new List<Product>();
         public OrderStatus OrderStatus { get; set; }
     }
 

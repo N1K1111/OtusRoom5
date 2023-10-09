@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization.Microservice.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization.Microservice.Infrastructure", "Authorization.Microservice.Infrastructure\Authorization.Microservice.Infrastructure.csproj", "{C26B57AF-5F09-4B21-9603-A02BD67B66C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Microservice.Infrastructure", "Shop.Microservice.Infrastructure\Shop.Microservice.Infrastructure.csproj", "{45C8EA2E-A0DF-4458-98DA-2E1792BD552A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Microservice.Infrastructure", "Shop.Microservice.Infrastructure\Shop.Microservice.Infrastructure.csproj", "{45C8EA2E-A0DF-4458-98DA-2E1792BD552A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +68,7 @@ Global
 		{6CE34532-CAAF-4E21-A03B-BBBF5FDCA6D2} = {1C0C6929-755E-4134-8F0E-7C0DA90BD29B}
 		{89C1A7E3-034B-49CE-9908-69EE677368CA} = {01D5192F-75BC-4123-B04B-560DFBFE7976}
 		{C26B57AF-5F09-4B21-9603-A02BD67B66C4} = {01D5192F-75BC-4123-B04B-560DFBFE7976}
+		{45C8EA2E-A0DF-4458-98DA-2E1792BD552A} = {1C0C6929-755E-4134-8F0E-7C0DA90BD29B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B74DF4CB-DAF8-465D-B50D-94CDAFFEF1E5}
