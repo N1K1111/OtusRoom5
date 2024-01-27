@@ -1,15 +1,15 @@
-﻿using Authorization.Microservice.Domain;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+using Shop.Microservice.Domain.Common;
 
-namespace Shop.Microservice.Domain.Common
+namespace Shop.Microservice.Domain.Entities
 {
-    public class Order : BaseAuditableEntity
+    public class Order : IEntity
     {
-        public Guid UserID { get; set; }
-        public List<Product> Products { get; set; } = new List<Product>();
+        public Guid Id { get; set; }
+        public Guid UserId { get; set; }
+
+        //public List<Product> Products { get; set; }
+
         public OrderStatus OrderStatus { get; set; }
+        public DateTime CreateAt { get; set; }
     }
-
-
 }

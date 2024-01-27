@@ -533,3 +533,9 @@ MigrationBackup/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+/Shop.Microservice.Infrastructure/DatabaseContext.cs
+/Notification.Microservice.Infrastructure/DatabaseContext.cs
+/Authorization.Microservice.Infrastructure/DatabaseContext.cs
+/Authorization.Microservice.Infrastructure/DatabaseContext.cs
+/Notification.Microservice.Infrastructure/DatabaseContext.cs
+/Shop.Microservice.Infrastructure/DatabaseContext.cs

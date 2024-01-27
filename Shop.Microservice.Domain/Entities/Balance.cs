@@ -1,12 +1,9 @@
-﻿using Authorization.Microservice.Domain;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
 namespace Shop.Microservice.Domain.Common
 {
-    public class Balance : BaseAuditableEntity
+    public class Balance : IEntity
     {
-        public Guid UserID { get; set; }
+        public Guid Id { get; set; }
+        public Guid UserId { get; set; }
         public double Amount { get; set; }
         public double AmountForSend { get; set; }
     }

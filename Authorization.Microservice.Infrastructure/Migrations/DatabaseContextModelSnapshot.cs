@@ -32,6 +32,9 @@ namespace Authorization.Microservice.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("ImagePath")
+                        .HasColumnType("text");
+
                     b.Property<string>("PasswordHash")
                         .IsRequired()
                         .HasColumnType("text");
@@ -47,6 +50,17 @@ namespace Authorization.Microservice.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("a2a7dcb7-49fd-4ab9-bd00-b05d31a12d3e"),
+                            Email = "a@mail.ru",
+                            ImagePath = "/content/avatars/35a44d12-42f9-4254-a7d3-2e3bf26c934c.jpg",
+                            PasswordHash = "473287f8298dba7163a897908958f7c0eae733e25d2e027992ea2edc9bed2fa8",
+                            Role = "user",
+                            Username = "Andrey Glazev"
+                        });
                 });
 #pragma warning restore 612, 618
         }
